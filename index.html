@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌍 Translate Bot Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌍 Translate Bot</h1>
+    <p class="subtitle">Fast & Free Translation Powered by Shega bot</p>
+
+    <div class="form-group">
+      <label for="language">Select Target Language:</label>
+      <select id="language">
+        <option value="am">Amharic 🇪🇹</option>
+        <option value="om">Oromo 🟢</option>
+        <option value="so">Somali 🔵</option>
+        <option value="ti">Tigrinya 🟡</option>
+        <option value="en" selected>English 🇬🇧</option>
+        <option value="ar">Arabic 🇸🇦</option>
+        <option value="fr">French 🇫🇷</option>
+        <option value="de">German 🇩🇪</option>
+        <option value="es">Spanish 🇪🇸</option>
+        <option value="pt">Portuguese 🇵🇹</option>
+        <option value="it">Italian 🇮🇹</option>
+        <option value="ru">Russian 🇷🇺</option>
+        <option value="zh">Chinese 🇨🇳</option>
+        <option value="ja">Japanese 🇯🇵</option>
+        <option value="hi">Hindi 🇮🇳</option>
+        <option value="sw">Swahili 🇰🇪</option>
+      </select>
+    </div>
+
+    <textarea id="inputText" placeholder="✍️ Enter text here..."></textarea>
+    <button onclick="translateText()">🚀 Translate</button>
+
+    <div id="result" class="result-card hidden">
+      <h3>📤 Original</h3>
+      <p id="original"></p>
+      <h3>📥 Translated</h3>
+      <p id="translated"></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>🌐 Translate Bot Web | Built with ❤️ by Salah</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

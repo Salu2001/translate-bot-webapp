@@ -1,0 +1,105 @@
+/* Background Gradient */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+/* Glassmorphism Card */
+.container {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 15px;
+  padding: 25px;
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+}
+
+h1 {
+  margin-bottom: 5px;
+  font-size: 2em;
+}
+
+.subtitle {
+  font-size: 14px;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+/* Dropdown */
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+/* Textarea */
+textarea {
+  width: 100%;
+  height: 120px;
+  margin: 15px 0;
+  padding: 12px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: none;
+  resize: none;
+  outline: none;
+}
+
+/* Button */
+button {
+  padding: 12px 25px;
+  background: #ff7eb3;
+  background: linear-gradient(45deg, #ff7eb3, #ff758c);
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(45deg, #ff758c, #ff7eb3);
+}
+
+/* Result Card */
+.result-card {
+  margin-top: 20px;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  border-radius: 10px;
+}
+.result-card h3 {
+  margin-bottom: 5px;
+  color: #ffe;
+}
+.hidden {
+  display: none;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  font-size: 12px;
+  text-align: center;
+  opacity: 0.7;
+}
